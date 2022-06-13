@@ -34,7 +34,7 @@ label {
 }
 
 
-/* css start from here */
+
 
 input[type="radio"][id="g-a"]:checked ~ .g-b, input[type="radio"][id="g-a"]:checked ~ .g-c, input[type="radio"][id="g-a"]:checked ~ .g-d, input[type="radio"][id="g-a"]:checked ~ .g-e, input[type="radio"][id="g-a"]:checked ~ .g-f, input[type="radio"][id="g-a"]:checked ~ .g-g, input[type="radio"][id="g-a"]:checked ~ .g-h {
   width:0;
@@ -99,6 +99,21 @@ input[type="radio"][id="g-h"]:checked ~ .g-a, input[type="radio"][id="g-h"]:chec
   margin:0;
   opacity:0;
 }
+
+input[type="radio"][id="g-a"]:checked + label,
+input[type="radio"][id="g-b"]:checked + label,
+input[type="radio"][id="g-c"]:checked + label,
+input[type="radio"][id="g-d"]:checked + label,
+input[type="radio"][id="g-e"]:checked + label,
+input[type="radio"][id="g-f"]:checked + label,
+input[type="radio"][id="g-g"]:checked + label,
+input[type="radio"][id="g-h"]:checked + label 
+{
+  background: #8A1538;
+  color: white;
+
+}
+
 
 .w-h {
   width: 70px;
